@@ -14,7 +14,7 @@ public class User3 {
         this.userName=userName;
         this.url= url;
     }
-    
+
     public User3()
     {
         this.name= name;
@@ -22,19 +22,19 @@ public class User3 {
         this.userName=userName;
         this.url= url;
     }
-    
+
     public void setUserName()
     {
-        
-      this.userName=userName;
-        
+
+        this.userName=userName;
+
     }
-        
+
     public String getUserName()
     {
         return userName;
     }
-    
+
     public void input()
     {
         Scanner keyboard = new Scanner(System.in);
@@ -56,5 +56,18 @@ public class User3 {
     public String toString()
     {
         return this.name + " " + this.userName+ " " + this.email + " " + this.url;
+    }
+    
+    public void setUrl(String u)
+    {
+        Scanner keyboard = new Scanner (System.in); 
+         
+
+        url = u; 
+    }
+
+    public String getUrl()
+    {
+        return url; 
     }
 }
