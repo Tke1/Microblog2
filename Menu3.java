@@ -92,10 +92,10 @@ public class Menu3 {
             out.println("3) Create a post as the current user"); 
             out.println("4) Print all posts"); 
             out.println("5) Print all users");
-            out.println("6) Exit"); 
+            //out.println("6) Exit"); 
             out.println(); 
 
-            out.println("Your are currently user" + " "+ selection + "." + "What would you like to do? Enter choice [1-6].");  
+            out.println("Your are currently user" + " "+ selection + "." + "What would you like to do? Enter choice [1-5].");  
             int choice= keyboard.nextInt(); 
             out.println(); 
             switch (choice)
@@ -158,7 +158,7 @@ public class Menu3 {
                 case 5:  
                 out.println(allUsers); 
                 break; 
-                case 6:
+                case 0:
                 quit=true;
                 break;
                 default: 
