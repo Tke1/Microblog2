@@ -153,10 +153,16 @@ public class Menu3 {
                 allPosts.add(myPost); 
                 break; 
                 case 4: 
-                out.println(allPosts); 
+                for  (int i=0; i<allPosts.size(); i++)
+                {
+                   allPosts.get(i).print();  
+                }
                 break;
                 case 5:  
-                out.println(allUsers); 
+                for (int i=0; i<allUsers.size(); i++)
+                {
+                    allUsers.get(i).print(); 
+                }
                 break; 
                 case 0:
                 quit=true;

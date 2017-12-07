@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Post3
 {
-    private static int nextPostNumber =0; 
+    private static int nextPostNumber =1; 
     private String author;
     private int postNumber;
     private String content; 
@@ -48,7 +48,7 @@ public class Post3
 
     public String toString()
     {
-        return this.postNumber + " " + this.author+ "/n" + this.content; 
+        return this.postNumber + " " + this.author+ "\n" + this.content; 
     }
 
     public void setInput(String c)
